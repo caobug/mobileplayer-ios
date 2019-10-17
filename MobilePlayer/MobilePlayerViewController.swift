@@ -511,6 +511,7 @@ open class MobilePlayerViewController: MPMoviePlayerViewController {
       isFirstPlay = false
       controlsView.previewImageView.isHidden = true
       controlsView.activityIndicatorView.stopAnimating()
+      moviePlayer.currentPlaybackTime = config.position
     }
   }
 

@@ -87,6 +87,7 @@
 		CE554D5B1AFE6CCD00DAC7E9 /* MobilePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE554D4F1AFE6CCD00DAC7E9 /* MobilePlayer.framework */; };
 		CE554D731AFE6EBB00DAC7E9 /* MobilePlayerOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554D6E1AFE6EBB00DAC7E9 /* MobilePlayerOverlayViewController.swift */; };
 		CE554D741AFE6EBB00DAC7E9 /* MobilePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554D6F1AFE6EBB00DAC7E9 /* MobilePlayerViewController.swift */; };
+		F70FB4492358D1DD00877D38 /* PositionExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70FB4482358D1DD00877D38 /* PositionExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,6 +232,7 @@
 		E4BB3AE1437BCF90E942E120 /* Pods_MobilePlayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilePlayerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D73B451E88B493F3D4298C /* Pods_MobilePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AD4F2FB52026C487C3B5A7 /* Pods-MobilePlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePlayerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobilePlayerExample/Pods-MobilePlayerExample.release.xcconfig"; sourceTree = "<group>"; };
+		F70FB4482358D1DD00877D38 /* PositionExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionExampleViewController.swift; sourceTree = "<group>"; };
 		F7438F36FFEAA93E14EB55F0 /* Pods-MobilePlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePlayerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobilePlayerExample/Pods-MobilePlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -298,6 +300,7 @@
 				5F3F03C21C18E73200EF50C4 /* PrerollExampleViewController.swift */,
 				5F3F03C41C18E74000EF50C4 /* PauseOverlayExampleViewController.swift */,
 				5F3F03C61C18E75300EF50C4 /* PostrollExampleViewController.swift */,
+				F70FB4482358D1DD00877D38 /* PositionExampleViewController.swift */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -792,6 +795,7 @@
 				5F7974781C17B02200EF50C4 /* OverlayExampleViewController.swift in Sources */,
 				5F56CBB71C041DAE00EF50C4 /* RemoteConfigExampleViewController.swift in Sources */,
 				5F56CBB31C04179700EF50C4 /* ExampleViewController.swift in Sources */,
+				F70FB4492358D1DD00877D38 /* PositionExampleViewController.swift in Sources */,
 				5F3F03C71C18E75300EF50C4 /* PostrollExampleViewController.swift in Sources */,
 				5F79747A1C17B67F00EF50C4 /* BuyOverlayViewController.swift in Sources */,
 				5F56CBB11C04178C00EF50C4 /* PlainExampleViewController.swift in Sources */,

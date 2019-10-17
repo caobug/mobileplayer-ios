@@ -19,6 +19,9 @@ public class MobilePlayerConfig {
 
   /// Bottom controls bar configuration.
   public let bottomBarConfig: BarConfig
+  
+  /// The current playback time of the now playing item in seconds.
+  public let position: TimeInterval
 
   /// Initializes with default values.
   public convenience init() {
@@ -68,6 +71,12 @@ public class MobilePlayerConfig {
       bottomBarConfig = BarConfig(dictionary: bottomBarDictionary)
     } else {
       bottomBarConfig = BarConfig()
+    }
+    
+    if let position = dictionary["position"] as? Double {
+        self.position = position
+    } else {
+        self.position = 0
     }
   }
 }

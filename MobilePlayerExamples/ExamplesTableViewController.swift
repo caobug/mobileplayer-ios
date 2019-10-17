@@ -20,7 +20,8 @@ class ExamplesTableViewController: UITableViewController {
     TimedOverlayExampleViewController(),
     PrerollExampleViewController(),
     PauseOverlayExampleViewController(),
-    PostrollExampleViewController()
+    PostrollExampleViewController(),
+    PositionExampleViewController()
   ]
   
   init() {
